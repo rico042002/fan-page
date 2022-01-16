@@ -1,0 +1,9 @@
+@font-face {
+    font-family: sickness;
+    src: url(Sickness.ttf);
+}
+
+h1, h3 {
+    font-family: sickness;
+}
+
