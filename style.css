@@ -157,3 +157,174 @@ html, body {
     width: 100px;
     height: 100px;
 }
+
+.btn-play:hover {
+    color: #EEEEEE;
+}
+
+.tour-row {
+    border-bottom: 1px solid black;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+
+.tour-row:last-child {
+    border-bottom: none;
+}
+
+.tour-item {
+    padding-right: .5em;
+    display: inline-block;
+}
+
+.tour-date {
+    color: black;
+    font-weight: bold;
+    width: 11%;
+}
+
+.tour-city {
+    width: 24%;
+    padding-left: 10px;
+}
+
+.tour-arena {
+    width: 42%;
+}
+
+.tour-btn {
+    max-width: 19%;
+}
+
+.btn-primary {
+    color: #EEEEEE;
+    background-color: crimson;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+    text-align: center;
+    padding-right: 12px;
+}
+
+.btn-primary:hover {
+    background-color: black;
+    color: crimson;
+}
+
+.shop-item {
+    margin: 30px;
+}
+
+.shop-item-title {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: crimson;
+    font-family: sickness;
+    margin-bottom: 15px;
+}
+
+.shop-item-details {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.shop-item-price {
+    flex-grow: 1;
+    color: crimson;
+    font-family: sickness;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.shop-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.shop-item-img {
+    width: 316px;
+}
+
+.cart-header {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: crimson;
+    font-family: sickness;
+}
+
+.cart-column {
+    display: flex;
+    align-items: center;
+    border-bottom:  1px solid black;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.cart-row {
+    display: flex;
+}
+
+.cart-item {
+    width: 45%;
+}
+
+.cart-price {
+    width: 20%;
+}
+
+.cart-quantity {
+    width: 35%;
+}
+
+.cart-item-title {
+    color: crimson;
+    margin-left: .5em;
+    font-size: 1.2em;
+    font-family: sickness;
+}
+
+.cart-item-img {
+    width: 75px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.btn-danger {
+    color: #EEEEEE;
+    background-color: crimson;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+
+.btn-danger:hover {
+    background-color: black;
+    color: crimson;
+}
+
+.cart-input {
+    height: 34px;
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid crimson;
+    background-color: black;
+    color: #EEEEEE;
+    padding: 0;
+    text-align: center;
+    font-size: 1.2em;
+    margin-right: 35px;
+}
+
+.cart-row:last-child {
+    border-bottom: 1px solid black;
+}
+
+.cart-row:last-child .cart-column {
+    border: none;
+}
