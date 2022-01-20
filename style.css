@@ -50,7 +50,7 @@ html, body {
 
 .main-header {
     background-color: rgba(0, 0, 0, 0.6);
-    background-image: url("/fan-page/img/slipknot.jpg");
+    background-image: url("img/slipknot.jpg");
     background-blend-mode: multiply;
     background-size: cover;
     padding-bottom: 30px;
